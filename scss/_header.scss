@@ -1,0 +1,95 @@
+@import "./variables";
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--bg-accent);
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 16px;
+}
+
+.primary-nav {
+    display: flex;
+    align-items: center;
+    gap: 85px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px;
+    font-size: 18px;
+}
+
+.nav-cta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Burger */
+.burger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.burger span {
+    width: 26px;
+    height: 2px;
+    background: #000;
+}
+
+/* Close button */
+.nav-close {
+    display: none;
+    align-self: flex-end;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* MOBILE */
+@media (max-width: 1024px) {
+
+    .burger {
+        display: flex;
+    }
+
+    .primary-nav {
+        position: fixed;
+        inset: 0;
+        background: var(--bg-accent);
+        flex-direction: column;
+        padding: 24px;
+        gap: 32px;
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+    }
+
+    .primary-nav.active {
+        transform: translateX(0);
+    }
+
+    .nav-close {
+        display: block;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-cta {
+        width: 100%;
+    }
+}

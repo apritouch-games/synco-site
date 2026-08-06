@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Synco - ApriTouch</title>
+  <meta name="description" content="Synco is a fun mind-matching word game published under the ApriTouch brand.">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="../js/site-config.js?v=20260601-config3" defer></script>
+  <script src="../js/i18n.js?v=20260601-config3" defer></script>
+  <script src="../js/games-data.js" defer></script>
+  <script src="../js/app.js" defer></script>
+</head>
+
+<body data-base="../" data-page="synco">
+  <div class="page" id="top">
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="../index.html" class="brand" aria-label="ApriTouch Games home" data-keep-lang>
+          <img src="../images/logo-mark.svg" alt="" aria-hidden="true" width="44" height="44">
+        </a>
+        <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-navigation" data-i18n-attr="aria-label:common.openMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="primary-nav" id="primary-navigation" aria-label="Primary navigation">
+          <button class="nav-close" type="button" aria-label="Close menu" data-i18n-attr="aria-label:common.closeMenu">X</button>
+          <ul class="nav-links">
+            <li><a href="../index.html#games" data-keep-lang data-i18n="common.navGames">Games</a></li>
+            <li><a href="../support.html" data-keep-lang data-i18n="common.navSupport">Support</a></li>
+            <li><a href="../privacy-policy.html" data-keep-lang data-i18n="common.navPrivacy">Privacy</a></li>
+            <li><a href="../terms-and-conditions.html" data-keep-lang data-i18n="common.navTerms">Terms</a></li>
+            <li><a href="../index.html#contact" data-keep-lang data-i18n="common.navContact">Contact</a></li>
+          </ul>
+          <div class="language-switcher" data-language-switcher></div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="synco-hero" aria-labelledby="synco-title">
+        <div class="container split-grid">
+          <div>
+            <span class="eyebrow" data-i18n="synco.eyebrow">ApriTouch game</span>
+            <h1 class="page-title" id="synco-title" data-game-title="synco">Synco</h1>
+            <p class="hero-subtitle" data-game-tagline="synco">Match minds. Guess pairs. Score together.</p>
+            <p class="page-lead" data-game-description="synco">A fun mind-matching word game where one player creates word pairs and others try to guess them.</p>
+            <div class="button-row" data-download-links="synco"></div>
+          </div>
+          <div>
+            <img class="synco-logo" src="../images/games/synco/logo.png" alt="Synco logo" width="600" height="260">
+            <img class="synco-icon" src="../images/games/synco/logo_icon.png" alt="Synco app icon" width="160" height="160">
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="about-game-title">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title" id="about-game-title" data-i18n="synco.aboutTitle">About the game</h2>
+            <p class="section-lead" data-i18n="synco.aboutText">Synco is a mind-matching word game: one player creates noun + adjective pairs, and the others try to guess them.</p>
+          </div>
+          <ul class="feature-list">
+            <li><strong data-i18n="synco.featureQuickTitle">Match minds</strong><span data-i18n="synco.featureQuickText">Think like the player who made the pairs.</span></li>
+            <li><strong data-i18n="synco.featureSimpleTitle">Guess pairs</strong><span data-i18n="synco.featureSimpleText">Find noun + adjective matches before the round ends.</span></li>
+            <li><strong data-i18n="synco.featureCleanTitle">Score together</strong><span data-i18n="synco.featureCleanText">Each guessed pair gives 1 point.</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section synco-rules-section" aria-labelledby="rules-title">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title" id="rules-title" data-i18n="synco.rulesTitle">Game Rules</h2>
+            <p class="section-lead" data-i18n="synco.rulesIntro">Synco is a mind-matching game. One player creates word pairs: noun + adjective. The others try to guess those pairs.</p>
+          </div>
+          <div class="rules-note">
+            <span>+1</span>
+            <p data-i18n="synco.rulesPointNote">Each guessed pair gives 1 point.</p>
+          </div>
+          <div class="rules-grid">
+            <article class="rules-card">
+              <div class="rules-card__header">
+                <span class="rules-card__badge">01</span>
+                <div>
+                  <h3 data-i18n="synco.circleTitle">Circle</h3>
+                  <p data-i18n="synco.circleSubtitle">Players work together against the game.</p>
+                </div>
+              </div>
+              <ol class="rules-steps">
+                <li data-i18n="synco.circleStepOne">A player takes the phone and makes pairs.</li>
+                <li data-i18n="synco.circleStepTwo">The other players do not look.</li>
+                <li data-i18n="synco.circleStepThree">Then the others try to guess their pairs.</li>
+                <li data-i18n="synco.circleStepFour">Each guessed pair adds points to the shared score.</li>
+                <li data-i18n="synco.circleStepFive">After the round, the turn passes to the next player.</li>
+                <li data-i18n="synco.circleStepSix">You win when the shared score reaches the goal.</li>
+              </ol>
+              <div class="rules-example">
+                <strong data-i18n="synco.circleExampleTitle">Example</strong>
+                <p data-i18n="synco.circleExampleText">Player 1 made 5 pairs.
+The others guessed 3 pairs.
+Shared score: +3 points.
+Next turn — Player 2.</p>
+              </div>
+            </article>
+
+            <article class="rules-card">
+              <div class="rules-card__header">
+                <span class="rules-card__badge">02</span>
+                <div>
+                  <h3 data-i18n="synco.teamsTitle">Teams</h3>
+                  <p data-i18n="synco.teamsSubtitle">Teams compete against each other.</p>
+                </div>
+              </div>
+              <ol class="rules-steps">
+                <li data-i18n="synco.teamsStepOne">The team chooses a player who will make pairs.</li>
+                <li data-i18n="synco.teamsStepTwo">The others do not look.</li>
+                <li data-i18n="synco.teamsStepThree">Then players from the same team try to guess their pairs.</li>
+                <li data-i18n="synco.teamsStepFour">The team gets points for guessed pairs.</li>
+                <li data-i18n="synco.teamsStepFive">After the round, the turn passes to the next team.</li>
+                <li data-i18n="synco.teamsStepSix">The first team to reach the target score wins.</li>
+              </ol>
+              <div class="rules-example">
+                <strong data-i18n="synco.teamsExampleTitle">Example</strong>
+                <p data-i18n="synco.teamsExampleText">Team 1 made 5 pairs.
+Team 1 guessed 3 pairs.
+Team 1 gets +3 points.
+Next turn — Team 2.</p>
+              </div>
+            </article>
+          </div>
+          <p class="rules-victory" data-i18n="synco.victoryNote">Victory comes when the point goal is reached.</p>
+        </div>
+      </section>
+
+      <section class="section section-soft" aria-labelledby="screenshots-title">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title" id="screenshots-title" data-i18n="synco.screenshotsTitle">Screenshots</h2>
+            <p class="section-lead" data-i18n="synco.screenshotsLead">A preview of Synco gameplay on mobile.</p>
+          </div>
+          <div class="screenshots-grid">
+            <figure class="screenshot-card">
+              <img src="../images/games/synco/screenshots/1.png" alt="Synco gameplay screenshot 1" width="565" height="1135" loading="lazy" decoding="async" data-i18n-attr="alt:synco.screenshotOne">
+              <figcaption data-i18n="synco.screenshotOne">Screenshot 1</figcaption>
+            </figure>
+            <figure class="screenshot-card">
+              <img src="../images/games/synco/screenshots/2.png" alt="Synco gameplay screenshot 2" width="553" height="1119" loading="lazy" decoding="async" data-i18n-attr="alt:synco.screenshotTwo">
+              <figcaption data-i18n="synco.screenshotTwo">Screenshot 2</figcaption>
+            </figure>
+            <figure class="screenshot-card">
+              <img src="../images/games/synco/screenshots/3.png" alt="Synco gameplay screenshot 3" width="553" height="1132" loading="lazy" decoding="async" data-i18n-attr="alt:synco.screenshotThree">
+              <figcaption data-i18n="synco.screenshotThree">Screenshot 3</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="download" aria-labelledby="download-title">
+        <div class="container">
+          <span class="eyebrow" data-i18n="synco.downloadEyebrow">Download</span>
+          <h2 class="section-title" id="download-title" data-i18n="synco.downloadTitle">Download Synco</h2>
+          <p class="section-lead" data-i18n="synco.downloadLead">Synco is free to play and may display advertisements.</p>
+          <div class="button-row" data-download-links="synco"></div>
+        </div>
+      </section>
+
+      <section class="section section-mint" aria-labelledby="support-title">
+        <div class="container contact-grid">
+          <div>
+            <h2 class="section-title" id="support-title" data-i18n="synco.supportTitle">Support</h2>
+            <p class="section-lead" data-i18n="synco.supportText">For questions, suggestions, bug reports or privacy-related requests, use the ApriTouch support and legal pages.</p>
+          </div>
+          <div class="button-row">
+            <a class="btn" href="../support.html" data-keep-lang data-i18n="common.navSupport">Support</a>
+            <a class="btn btn-secondary" href="../privacy-policy.html" data-keep-lang data-i18n="common.privacyPolicy">Privacy Policy</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-column footer-column--brand">
+            <div class="footer-brand">
+              <img src="../images/logo-mark.svg" alt="" aria-hidden="true" width="40" height="40">
+            </div>
+            <p class="footer-text" data-i18n="common.footerTagline">Simple, fun and accessible mobile games for everyone.</p>
+            <p class="footer-legal" data-i18n="common.footerLegal">ApriTouch is a brand operated by {legalEntityEn}.</p>
+          </div>
+          <div class="footer-column">
+            <h2 class="footer-heading footer-heading--pages">
+              <span lang="en">Pages</span>
+              <span lang="hy">Էջեր</span>
+              <span lang="ru">Страницы</span>
+            </h2>
+            <ul class="footer-links" aria-label="Footer navigation">
+              <li><a href="../index.html#games" data-keep-lang data-i18n="common.navGames">Games</a></li>
+              <li><a href="../support.html" data-keep-lang data-i18n="common.navSupport">Support</a></li>
+              <li><a href="../privacy-policy.html" data-keep-lang data-i18n="common.privacyPolicy">Privacy Policy</a></li>
+              <li><a href="../terms-and-conditions.html" data-keep-lang data-i18n="common.termsAndConditions">Terms and Conditions</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h2 class="footer-heading" data-i18n="common.languageSwitcher">Language</h2>
+            <div class="language-switcher" data-language-switcher></div>
+            <div class="footer-contact">
+              <a href="mailto:{supportEmail}" data-i18n="common.supportEmailAddress" data-i18n-attr="href:common.supportEmailHref">{supportEmail}</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span data-i18n="common.footerCopyright">&copy; 2026 ApriTouch. All rights reserved.</span>
+          <span data-i18n="common.footerBrand">Brand: ApriTouch</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

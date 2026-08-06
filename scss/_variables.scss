@@ -1,0 +1,20 @@
+:root {
+    --bg: #ffffff;
+    --bg-accent: #F9F9F9;
+    --bg-blue: #F4F4FF;
+    --primary: #FFB27F;
+    --brand-color: #272757;
+    --text-main: #333333;
+    --max-width: 1480px;
+    --page-padding-x: clamp(24px, 6vw, 220px);
+    --page-padding-y: clamp(24px, 6vw, 140px);
+    --shadow-soft: 0 9px 27px 0 rgba(25, 33, 61, 0.06);
+}
+
+:root {
+    --btn-radius: 8px;
+    --btn-height: 52px;
+    --btn-padding-x: 20px;
+    --btn-font-size: 18px;
+    --btn-font-weight: regular;
+}

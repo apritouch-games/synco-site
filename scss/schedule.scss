@@ -1,0 +1,139 @@
+@import "./variables";
+
+
+.schedule-section {
+    padding: 80px 0;
+    background: #f7f8ff;
+}
+
+.schedule-section .apritouch-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+    gap: 64px;
+    align-items: center;
+}
+
+.schedule-section .main-title {
+    font-size: 2.4rem;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+.accent-text {
+    color: #28c8a5;
+}
+
+.schedule-section h3 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.schedule-section ol {
+    margin: 0 0 20px;
+    padding-left: 1.3rem;
+    line-height: 1.6;
+}
+
+.schedule-section .mb-10 {
+    margin-bottom: 10px;
+}
+
+.schedule-section .mb-20 {
+    margin-bottom: 20px;
+}
+
+.schedule-card {
+    background: #2f4660;
+    color: #ffffff;
+    border-radius: 18px;
+    padding: 28px 32px 30px;
+    max-width: 420px;
+    margin-left: auto;
+    box-shadow: 0 18px 45px rgba(10, 26, 45, 0.35);
+}
+
+.schedule-card-header {
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.schedule-logo-circle {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin: 0 auto 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1f3248;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.schedule-card-title {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    opacity: 0.85;
+}
+
+.schedule-card-month {
+    margin-top: 4px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.schedule-calendar {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 0.8rem;
+}
+
+.calendar-row {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+    text-align: center;
+}
+
+.calendar-header span {
+    font-weight: 600;
+    font-size: 0.75rem;
+    opacity: 0.9;
+}
+
+.calendar-row span {
+    padding: 6px 0;
+    border-radius: 999px;
+}
+
+.calendar-row span:not(:empty):hover {
+    background: rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+}
+
+.schedule-note {
+    margin-top: 18px;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    opacity: 0.9;
+}
+
+/* ========== Responsive ========== */
+
+@media (max-width: 900px) {
+    .schedule-section {
+        padding: 56px 0;
+    }
+
+    .schedule-section .apritouch-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .schedule-card {
+        margin: 0 auto;
+    }
+}

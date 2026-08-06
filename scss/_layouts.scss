@@ -1,0 +1,43 @@
+@media (max-width: 1024px) {
+
+    .apritouch-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 32px;
+    }
+
+    .apritouch-content {
+        padding: 0 !important;
+    }
+
+    // games section
+    .games-section,
+    .featured-game-section {
+        .apritouch-visual {
+            order: 2;
+        }
+
+        .apritouch-content {
+            order: 1;
+        }
+    }
+
+
+
+
+}
+
+@media (max-width: 450px) {
+    .contact-section .contact-form {
+        justify-content: flex-start !important;
+
+        form {
+            width: 100% !important;
+        }
+    }
+
+
+    .footer-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 32px;
+    }
+}

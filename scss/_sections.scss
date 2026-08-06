@@ -1,0 +1,166 @@
+@import "./variables";
+
+.apritouch-content {
+    padding: 60px 0;
+
+    .main-title {
+        margin-bottom: 26px;
+    }
+}
+
+.apritouch-actions {
+    margin-top: 60px;
+}
+
+.apritouch-visual {
+    background: #d8e6ff;
+    height: 100%;
+
+    img {
+        max-width: 520px;
+    }
+}
+
+// hero section
+.hero-section {
+    background: var(--bg-accent);
+
+    .apritouch-content {
+        .main-title {
+            font-size: 48px
+        }
+
+        .description {
+            max-width: 530px;
+            font-size: 20px
+        }
+
+    }
+}
+
+// games section
+.games-section {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 100px;
+
+}
+
+// featured game section
+.featured-game-section {
+    padding-block: 80px;
+    background-color: #E1D4C3;
+
+    .apritouch-actions {
+        display: flex;
+        gap: 32px;
+        flex-wrap: wrap;
+
+        a {
+            max-width: 192px;
+        }
+
+    }
+}
+
+.about-section {
+
+    .main-title {
+        margin-bottom: 24px;
+
+        .about {
+            color: var(--primary);
+            font-weight: 400;
+        }
+
+        .about-highlight {
+            font-weight: 600;
+            color: var(--brand-color);
+        }
+    }
+}
+
+
+.contact-section {
+    background: var(--bg-blue);
+
+    p {
+        margin-bottom: 60px;
+        max-width: 670px;
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 45px;
+        margin-bottom: 32px;
+    }
+
+    .contact-form {
+
+        display: flex;
+        justify-content: flex-end;
+
+        form {
+            max-width: 470px;
+            width: 64%;
+
+        }
+
+        .input-wrapper {
+            position: relative;
+            margin-bottom: 32px;
+        }
+
+        .input-wrapper input,
+        .input-wrapper textarea {
+            width: 100%;
+            border-radius: 8px;
+            border: 1px solid #D8D8D8;
+            padding: 20px;
+            font-size: 16px;
+            outline: none;
+            background: #fff;
+            transition: border 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+        }
+
+        .input-wrapper textarea {
+            resize: vertical;
+            min-height: 90px;
+        }
+
+        .fake-placeholder {
+            position: absolute;
+            left: 15px;
+            top: 14px;
+            color: #555;
+            pointer-events: none;
+            font-size: 16px;
+            transition: opacity 0.2s;
+        }
+
+        .fake-placeholder .red {
+            color: red;
+        }
+
+        .input-wrapper input:not(:placeholder-shown)+.fake-placeholder,
+        .input-wrapper input:focus+.fake-placeholder {
+            opacity: 0;
+        }
+
+        .form-status {
+            margin-top: 12px;
+            font-size: 14px;
+        }
+
+        .form-status.success {
+            color: #1a8f3c;
+        }
+
+        .form-status.error {
+            color: #c62828;
+        }
+
+    }
+
+}
