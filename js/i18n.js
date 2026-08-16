@@ -80,6 +80,10 @@
         synco: {
           title: "Synco - ApriTouch",
           description: "Synco is a fun mind-matching word game published under the ApriTouch brand."
+        },
+        xachbar: {
+          title: "Xachbar - Armenian Crossword Game | ApriTouch",
+          description: "Solve Armenian crossword puzzles, discover new words, use hints and track your daily progress in Xachbar."
         }
       },
       common: {
@@ -121,6 +125,7 @@
         heroTitle: "ApriTouch Games",
         heroSubtitle: "Simple, fun and accessible mobile games for everyone.",
         heroText: "We create lightweight mobile games designed for quick, enjoyable and easy-to-understand gameplay.",
+        heroCardCrossword: "Crossword",
         viewGames: "View Games",
         gamesTitle: "Our Games",
         gamesLead: "A growing collection of simple and fun mobile games by ApriTouch.",
@@ -184,10 +189,48 @@
         supportText: "For questions, suggestions, bug reports or privacy-related requests, use the ApriTouch support and legal pages.",
         footerText: "Synco is a mind-matching word game published under the ApriTouch brand."
       },
+      xachbar: {
+        eyebrow: "ApriTouch game",
+        aboutTitle: "About the game",
+        aboutText: "Xachbar is a simple and fun Armenian crossword puzzle game. Solve levels, discover new words and enjoy a relaxing challenge for your mind.",
+        featureWordsTitle: "Discover words",
+        featureWordsText: "Grow your Armenian vocabulary as you solve each crossword.",
+        featureHintsTitle: "Use helpful hints",
+        featureHintsText: "Get a little help when a difficult word slows you down.",
+        featureProgressTitle: "Keep your progress",
+        featureProgressText: "Complete levels, earn stars and follow your daily progress.",
+        guideTitle: "How to play",
+        guideIntro: "Choose a crossword, solve its Armenian words and continue through the map at your own pace.",
+        guideNote: "Every completed crossword moves your progress forward.",
+        solveTitle: "Solve a crossword",
+        solveSubtitle: "Fill the grid one Armenian word at a time.",
+        solveStepOne: "Choose an available level on the map.",
+        solveStepTwo: "Read the clues and inspect the crossword grid.",
+        solveStepThree: "Enter the Armenian words that match the clues.",
+        solveStepFour: "Use a hint if you need help with a difficult answer.",
+        solveStepFive: "Complete the grid and continue to the next challenge.",
+        progressTitle: "Build your progress",
+        progressSubtitle: "Return every day and keep discovering words.",
+        progressStepOne: "Earn stars by completing crossword levels.",
+        progressStepTwo: "Open new challenges as you move through the map.",
+        progressStepThree: "Collect coins and spend them on helpful hints.",
+        progressStepFour: "Track your results and daily activity.",
+        progressStepFive: "Play at your own pace and improve your vocabulary.",
+        screenshotsTitle: "Screenshots",
+        screenshotsLead: "A preview of Xachbar gameplay on iPhone.",
+        screenshotOne: "Home screen",
+        screenshotTwo: "Crossword map",
+        screenshotThree: "Profile and characters",
+        downloadEyebrow: "Download",
+        downloadTitle: "Download Xachbar",
+        downloadLead: "Xachbar is available on the App Store. The game is free to play and may display advertisements or offer optional in-app purchases.",
+        supportTitle: "Support",
+        supportText: "For questions, suggestions, bug reports or privacy-related requests, use the ApriTouch support and legal pages."
+      },
       privacy: {
         title: "Privacy Policy",
         eyebrow: "Legal",
-        lastUpdated: "Last updated: 31 May 2026",
+        lastUpdated: "Last updated: 16 August 2026",
         footerText: "Privacy information for games published under the ApriTouch brand.",
         sections: [
           {
@@ -229,7 +272,7 @@
           },
           {
             heading: "7. In-app purchases",
-            paragraphs: ["Our games do not include in-app purchases, subscriptions or paid digital goods."]
+            paragraphs: ["Some of our games may offer optional in-app purchases or subscriptions. Payments are processed by the applicable platform provider, such as the Apple App Store or Google Play. We do not receive or store full payment card information."]
           },
           {
             heading: "8. Children's privacy",
@@ -260,7 +303,7 @@
       terms: {
         title: "Terms and Conditions",
         eyebrow: "Legal",
-        lastUpdated: "Last updated: 31 May 2026",
+        lastUpdated: "Last updated: 16 August 2026",
         footerText: "Terms for games published under the ApriTouch brand.",
         sections: [
           {
@@ -283,8 +326,8 @@
             paragraphs: ["Our games are free to play and may display advertisements. Advertisements may be provided by third-party advertising partners."]
           },
           {
-            heading: "5. No purchases",
-            paragraphs: ["Our games do not include in-app purchases, subscriptions or paid digital goods."]
+            heading: "5. In-app purchases",
+            paragraphs: ["Some games may offer optional in-app purchases or subscriptions. Prices are shown in the relevant platform store before purchase. Payments, refunds and purchase management are handled under the rules of the Apple App Store, Google Play or another applicable platform provider."]
           },
           {
             heading: "6. Third-party services",
@@ -330,6 +373,10 @@
         synco: {
           title: "Synco - ApriTouch",
           description: "Synco-ն զվարճալի մտքերի համընկնման բառախաղ է ApriTouch բրենդի ներքո:"
+        },
+        xachbar: {
+          title: "Xachbar - հայկական խաչբառերի խաղ | ApriTouch",
+          description: "Լուծեք հայկական խաչբառեր, բացահայտեք նոր բառեր, օգտվեք հուշումներից և հետևեք ձեր ամենօրյա առաջընթացին Xachbar-ում:"
         }
       },
       common: {
@@ -371,6 +418,7 @@
         heroTitle: "ApriTouch խաղեր",
         heroSubtitle: "Պարզ, զվարճալի և հասանելի բջջային խաղեր բոլորի համար:",
         heroText: "Մենք ստեղծում ենք թեթև բջջային խաղեր՝ նախատեսված արագ, հաճելի և հեշտ հասկանալի խաղային փորձի համար:",
+        heroCardCrossword: "Խաչբառ",
         viewGames: "Դիտել խաղերը",
         gamesTitle: "Մեր խաղերը",
         gamesLead: "ApriTouch-ի պարզ և զվարճալի բջջային խաղերի աճող հավաքածու:",
@@ -434,10 +482,48 @@
         supportText: "Հարցերի, առաջարկների, սխալների կամ գաղտնիության հարցումների համար օգտագործեք ApriTouch-ի աջակցության և իրավական էջերը:",
         footerText: "Synco-ն մտքերի համընկնման բառախաղ է ApriTouch բրենդի ներքո:"
       },
+      xachbar: {
+        eyebrow: "ApriTouch խաղ",
+        aboutTitle: "Խաղի մասին",
+        aboutText: "Xachbar-ը պարզ ու զվարճալի հայկական խաչբառերի խաղ է։ Լուծեք մակարդակները, բացահայտեք նոր բառեր և վայելեք հանգիստ մտավոր մարտահրավեր։",
+        featureWordsTitle: "Բացահայտեք նոր բառեր",
+        featureWordsText: "Հարստացրեք ձեր հայերեն բառապաշարը՝ լուծելով յուրաքանչյուր խաչբառը։",
+        featureHintsTitle: "Օգտվեք հուշումներից",
+        featureHintsText: "Ստացեք փոքր օգնություն, երբ դժվար բառը խանգարում է առաջ շարժվել։",
+        featureProgressTitle: "Պահպանեք առաջընթացը",
+        featureProgressText: "Ավարտեք մակարդակները, վաստակեք աստղեր և հետևեք ամենօրյա առաջընթացին։",
+        guideTitle: "Ինչպես խաղալ",
+        guideIntro: "Ընտրեք խաչբառը, լուծեք հայկական բառերը և ձեր տեմպով առաջ շարժվեք քարտեզով։",
+        guideNote: "Յուրաքանչյուր ավարտված խաչբառ առաջ է տանում ձեր առաջընթացը։",
+        solveTitle: "Լուծեք խաչբառը",
+        solveSubtitle: "Լրացրեք ցանցը՝ մեկական հայկական բառով։",
+        solveStepOne: "Քարտեզից ընտրեք հասանելի մակարդակը։",
+        solveStepTwo: "Կարդացեք հարցերը և ուսումնասիրեք խաչբառի ցանցը։",
+        solveStepThree: "Մուտքագրեք հարցերին համապատասխանող հայկական բառերը։",
+        solveStepFour: "Օգտվեք հուշումից, եթե դժվար պատասխանի համար օգնություն է պետք։",
+        solveStepFive: "Լրացրեք ամբողջ ցանցը և անցեք հաջորդ մարտահրավերին։",
+        progressTitle: "Առաջ շարժվեք",
+        progressSubtitle: "Վերադարձեք ամեն օր և շարունակեք նոր բառեր բացահայտել։",
+        progressStepOne: "Խաչբառերի մակարդակներն ավարտելով՝ վաստակեք աստղեր։",
+        progressStepTwo: "Քարտեզով առաջ շարժվելիս բացեք նոր մարտահրավերներ։",
+        progressStepThree: "Հավաքեք մետաղադրամներ և դրանք օգտագործեք օգտակար հուշումների համար։",
+        progressStepFour: "Հետևեք ձեր արդյունքներին և ամենօրյա ակտիվությանը։",
+        progressStepFive: "Խաղացեք ձեր տեմպով և հարստացրեք բառապաշարը։",
+        screenshotsTitle: "Սքրինշոթներ",
+        screenshotsLead: "Xachbar-ի խաղային ընթացքի նախադիտում iPhone-ում։",
+        screenshotOne: "Գլխավոր էկրան",
+        screenshotTwo: "Խաչբառերի քարտեզ",
+        screenshotThree: "Պրոֆիլ և կերպարներ",
+        downloadEyebrow: "Ներբեռնել",
+        downloadTitle: "Ներբեռնել Xachbar",
+        downloadLead: "Xachbar-ը հասանելի է App Store-ում։ Խաղն անվճար է և կարող է ցուցադրել գովազդ կամ առաջարկել կամընտիր ներծրագրային գնումներ։",
+        supportTitle: "Աջակցություն",
+        supportText: "Հարցերի, առաջարկների, սխալների կամ գաղտնիության հարցումների համար օգտագործեք ApriTouch-ի աջակցության և իրավական էջերը։"
+      },
       privacy: {
         title: "Գաղտնիության քաղաքականություն",
         eyebrow: "Իրավական",
-        lastUpdated: "Վերջին թարմացումը՝ 31 մայիսի 2026",
+        lastUpdated: "Վերջին թարմացումը՝ 16 օգոստոսի 2026",
         footerText: "Գաղտնիության տեղեկություններ ApriTouch բրենդի ներքո հրապարակվող խաղերի համար:",
         sections: [
           {
@@ -473,7 +559,7 @@
           },
           {
             heading: "7. Ներծրագրային գնումներ",
-            paragraphs: ["Մեր խաղերը չունեն ներծրագրային գնումներ, բաժանորդագրություններ կամ վճարովի թվային ապրանքներ:"]
+            paragraphs: ["Մեր որոշ խաղեր կարող են առաջարկել կամընտիր ներծրագրային գնումներ կամ բաժանորդագրություններ։ Վճարումները մշակում է համապատասխան հարթակը, օրինակ՝ Apple App Store-ը կամ Google Play-ը։ Մենք չենք ստանում և չենք պահպանում վճարային քարտերի ամբողջական տվյալները։"]
           },
           {
             heading: "8. Երեխաների գաղտնիություն",
@@ -504,7 +590,7 @@
       terms: {
         title: "Պայմաններ",
         eyebrow: "Իրավական",
-        lastUpdated: "Վերջին թարմացումը՝ 31 մայիսի 2026",
+        lastUpdated: "Վերջին թարմացումը՝ 16 օգոստոսի 2026",
         footerText: "Պայմաններ ApriTouch բրենդի ներքո հրապարակվող խաղերի համար:",
         sections: [
           {
@@ -527,8 +613,8 @@
             paragraphs: ["Մեր խաղերը անվճար են և կարող են ցուցադրել գովազդ: Գովազդը կարող է տրամադրվել երրորդ կողմի գովազդային գործընկերների կողմից:"]
           },
           {
-            heading: "5. Գնումներ չկան",
-            paragraphs: ["Մեր խաղերը չունեն ներծրագրային գնումներ, բաժանորդագրություններ կամ վճարովի թվային ապրանքներ:"]
+            heading: "5. Ներծրագրային գնումներ",
+            paragraphs: ["Որոշ խաղեր կարող են առաջարկել կամընտիր ներծրագրային գնումներ կամ բաժանորդագրություններ։ Գները ցուցադրվում են համապատասխան հարթակի խանութում՝ գնումից առաջ։ Վճարումները, վերադարձները և գնումների կառավարումը կատարվում են Apple App Store-ի, Google Play-ի կամ համապատասխան այլ հարթակի կանոններով։"]
           },
           {
             heading: "6. Երրորդ կողմի ծառայություններ",
@@ -574,6 +660,10 @@
         synco: {
           title: "Synco - ApriTouch",
           description: "Synco - весёлая игра на совпадение мыслей под брендом ApriTouch."
+        },
+        xachbar: {
+          title: "Xachbar - армянские кроссворды | ApriTouch",
+          description: "Решайте армянские кроссворды, открывайте новые слова, используйте подсказки и следите за ежедневным прогрессом в Xachbar."
         }
       },
       common: {
@@ -615,6 +705,7 @@
         heroTitle: "Игры ApriTouch",
         heroSubtitle: "Простые, веселые и доступные мобильные игры для всех.",
         heroText: "Мы создаем легкие мобильные игры для быстрых, приятных и понятных игровых сессий.",
+        heroCardCrossword: "Кроссворд",
         viewGames: "Посмотреть игры",
         gamesTitle: "Наши игры",
         gamesLead: "Растущая коллекция простых и веселых мобильных игр от ApriTouch.",
@@ -678,10 +769,48 @@
         supportText: "По вопросам, предложениям, ошибкам или запросам конфиденциальности используйте страницы поддержки и правовые страницы ApriTouch.",
         footerText: "Synco - игра на совпадение мыслей, опубликованная под брендом ApriTouch."
       },
+      xachbar: {
+        eyebrow: "Игра ApriTouch",
+        aboutTitle: "Об игре",
+        aboutText: "Xachbar — простая и увлекательная игра с армянскими кроссвордами. Решайте уровни, открывайте новые слова и наслаждайтесь спокойной тренировкой для ума.",
+        featureWordsTitle: "Открывайте новые слова",
+        featureWordsText: "Расширяйте армянский словарный запас, решая каждый кроссворд.",
+        featureHintsTitle: "Используйте подсказки",
+        featureHintsText: "Получите небольшую помощь, если сложное слово мешает двигаться дальше.",
+        featureProgressTitle: "Сохраняйте прогресс",
+        featureProgressText: "Проходите уровни, получайте звёзды и следите за ежедневным прогрессом.",
+        guideTitle: "Как играть",
+        guideIntro: "Выберите кроссворд, разгадайте армянские слова и двигайтесь по карте в своём темпе.",
+        guideNote: "Каждый завершённый кроссворд продвигает ваш прогресс вперёд.",
+        solveTitle: "Решите кроссворд",
+        solveSubtitle: "Заполняйте сетку по одному армянскому слову.",
+        solveStepOne: "Выберите доступный уровень на карте.",
+        solveStepTwo: "Прочитайте вопросы и изучите сетку кроссворда.",
+        solveStepThree: "Введите армянские слова, соответствующие вопросам.",
+        solveStepFour: "Используйте подсказку, если нужен ответ на сложное слово.",
+        solveStepFive: "Заполните сетку и переходите к следующему заданию.",
+        progressTitle: "Развивайте свой прогресс",
+        progressSubtitle: "Возвращайтесь каждый день и продолжайте открывать новые слова.",
+        progressStepOne: "Получайте звёзды за завершённые уровни.",
+        progressStepTwo: "Открывайте новые задания, продвигаясь по карте.",
+        progressStepThree: "Собирайте монеты и тратьте их на полезные подсказки.",
+        progressStepFour: "Следите за результатами и ежедневной активностью.",
+        progressStepFive: "Играйте в своём темпе и улучшайте словарный запас.",
+        screenshotsTitle: "Скриншоты",
+        screenshotsLead: "Предпросмотр игрового процесса Xachbar на iPhone.",
+        screenshotOne: "Главный экран",
+        screenshotTwo: "Карта кроссвордов",
+        screenshotThree: "Профиль и персонажи",
+        downloadEyebrow: "Скачать",
+        downloadTitle: "Скачать Xachbar",
+        downloadLead: "Xachbar доступна в App Store. Игра бесплатна и может показывать рекламу или предлагать необязательные встроенные покупки.",
+        supportTitle: "Поддержка",
+        supportText: "По вопросам, предложениям, ошибкам или запросам конфиденциальности используйте страницы поддержки и правовые страницы ApriTouch."
+      },
       privacy: {
         title: "Политика конфиденциальности",
         eyebrow: "Правовая информация",
-        lastUpdated: "Последнее обновление: 31 мая 2026",
+        lastUpdated: "Последнее обновление: 16 августа 2026",
         footerText: "Информация о конфиденциальности для игр, опубликованных под брендом ApriTouch.",
         sections: [
           {
@@ -717,7 +846,7 @@
           },
           {
             heading: "7. Встроенные покупки",
-            paragraphs: ["В наших играх нет встроенных покупок, подписок или платных цифровых товаров."]
+            paragraphs: ["Некоторые наши игры могут предлагать необязательные встроенные покупки или подписки. Платежи обрабатываются соответствующей платформой, например Apple App Store или Google Play. Мы не получаем и не храним полные данные платежных карт."]
           },
           {
             heading: "8. Конфиденциальность детей",
@@ -748,7 +877,7 @@
       terms: {
         title: "Условия использования",
         eyebrow: "Правовая информация",
-        lastUpdated: "Последнее обновление: 31 мая 2026",
+        lastUpdated: "Последнее обновление: 16 августа 2026",
         footerText: "Условия для игр, опубликованных под брендом ApriTouch.",
         sections: [
           {
@@ -771,8 +900,8 @@
             paragraphs: ["Наши игры бесплатны и могут показывать рекламу. Реклама может предоставляться сторонними рекламными партнерами."]
           },
           {
-            heading: "5. Покупок нет",
-            paragraphs: ["В наших играх нет встроенных покупок, подписок или платных цифровых товаров."]
+            heading: "5. Встроенные покупки",
+            paragraphs: ["Некоторые игры могут предлагать необязательные встроенные покупки или подписки. Цены показываются в магазине соответствующей платформы до покупки. Платежи, возвраты и управление покупками осуществляются по правилам Apple App Store, Google Play или другого применимого поставщика платформы."]
           },
           {
             heading: "6. Сторонние сервисы",
