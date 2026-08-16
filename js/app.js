@@ -38,10 +38,17 @@
 
   function renderStoreLinks(game, className) {
     const classes = className ? ` ${className}` : "";
-    return `
-      <a class="btn btn-store${classes}" href="${resolveUrl(game.googlePlayUrl)}">${escapeHtml(translate("common.googlePlay"))}</a>
-      <a class="btn btn-store${classes}" href="${resolveUrl(game.appStoreUrl)}">${escapeHtml(translate("common.appStore"))}</a>
-    `;
+    const links = [];
+
+    if (game.googlePlayUrl && game.googlePlayUrl !== "#") {
+      links.push(`<a class="btn btn-store${classes}" href="${resolveUrl(game.googlePlayUrl)}">${escapeHtml(translate("common.googlePlay"))}</a>`);
+    }
+
+    if (game.appStoreUrl && game.appStoreUrl !== "#") {
+      links.push(`<a class="btn btn-store${classes}" href="${resolveUrl(game.appStoreUrl)}">${escapeHtml(translate("common.appStore"))}</a>`);
+    }
+
+    return links.join("");
   }
 
   function renderGameCards() {
