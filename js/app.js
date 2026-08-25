@@ -44,9 +44,21 @@
       links.push(`<a class="btn btn-store${classes}" href="${resolveUrl(game.googlePlayUrl)}">${escapeHtml(translate("common.googlePlay"))}</a>`);
     }
 
-    if (game.appStoreUrl && game.appStoreUrl !== "#") {
-      links.push(`<a class="btn btn-store${classes}" href="${resolveUrl(game.appStoreUrl)}">${escapeHtml(translate("common.appStore"))}</a>`);
-    }
+if (game.appStoreUrl && game.appStoreUrl !== "#") {
+  links.push(`
+    <a
+      class="btn btn-store${classes}"
+      href="${resolveUrl(game.appStoreUrl)}"
+      onclick="gtag('event', 'app_store_click', {
+        game_name: 'xachbar',
+        store: 'app_store',
+        transport_type: 'beacon'
+      });"
+    >
+      ${escapeHtml(translate("common.appStore"))}
+    </a>
+  `);
+}
 
     return links.join("");
   }
