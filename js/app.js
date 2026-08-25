@@ -50,7 +50,7 @@ if (game.appStoreUrl && game.appStoreUrl !== "#") {
       class="btn btn-store${classes}"
       href="${resolveUrl(game.appStoreUrl)}"
       onclick="gtag('event', 'app_store_click', {
-        game_name: 'xachbar',
+        game_name: '${escapeHtml(game.id)}',
         store: 'app_store',
         transport_type: 'beacon'
       });"
