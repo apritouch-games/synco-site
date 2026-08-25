@@ -6,8 +6,7 @@ const games = [
     icon: "images/games/synco/logo_icon.png",
     // TODO: Replace with real Google Play URL
     googlePlayUrl: "#",
-    // TODO: Replace with real App Store URL
-    appStoreUrl: "#",
+    appStoreUrl: "https://apps.apple.com/us/app/synco-party/id6798563422",
     pageUrl: "games/synco.html",
     status: "available",
     i18n: {
