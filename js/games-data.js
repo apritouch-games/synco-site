@@ -32,7 +32,7 @@ const games = [
     name: "Xachbar",
     logo: "images/games/xachbar/logo.png",
     icon: "images/games/xachbar/logo_icon.png",
-    googlePlayUrl: "#",
+    googlePlayUrl: "https://play.google.com/store/apps/details?id=com.apritouch.xachbar",
     appStoreUrl: "https://apps.apple.com/us/app/xachbar/id6755462430",
     pageUrl: "games/xachbar.html",
     status: "available",
