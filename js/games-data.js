@@ -53,6 +53,33 @@ const games = [
         pageDescription: "Xachbar — простая и увлекательная игра с армянскими кроссвордами. Решайте уровни, открывайте новые слова, используйте подсказки и наслаждайтесь спокойной тренировкой для ума с ежедневным прогрессом."
       }
     }
+  },
+  {
+    id: "citatner",
+    name: "Citatner",
+    logo: "images/games/citatner/logo.png",
+    icon: "images/games/citatner/logo.png",
+    googlePlayUrl: "#",
+    appStoreUrl: "#",
+    pageUrl: "games/citatner.html",
+    status: "new",
+    i18n: {
+      en: {
+        tagline: "Solve words. Reveal letters. Discover the quote.",
+        description: "A relaxing word puzzle game where every solved clue helps reveal a hidden quotation.",
+        pageDescription: "Solve clue words, reveal matching numbered letters and uncover hidden quotes across more than 2,700 puzzles."
+      },
+      hy: {
+        tagline: "Գուշակեք բառերը։ Բացահայտեք տառերը։ Վերականգնեք ցիտատը։",
+        description: "Հանգիստ բառախաղ, որտեղ յուրաքանչյուր գուշակված բառ օգնում է բացահայտել թաքնված ցիտատը։",
+        pageDescription: "Գուշակեք հուշումներով բառերը, բացեք համարներով կապված տառերը և վերականգնեք թաքնված ցիտատները՝ ավելի քան 2700 հանելուկներում։"
+      },
+      ru: {
+        tagline: "Разгадайте слова. Откройте буквы. Восстановите цитату.",
+        description: "Спокойная словесная головоломка, где каждое разгаданное слово помогает восстановить скрытую цитату.",
+        pageDescription: "Разгадывайте слова по подсказкам, открывайте связанные по номерам буквы и восстанавливайте скрытые цитаты в более чем 2700 головоломках."
+      }
+    }
   }
 ];
 

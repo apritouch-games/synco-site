@@ -950,6 +950,70 @@
     contactText: "For support, bug reports or privacy-related requests, contact us by email."
   });
 
+  Object.assign(translations.en.meta, {
+    citatner: {
+      title: "Citatner - Quotes and Word Puzzles | ApriTouch",
+      description: "Solve clue words, reveal matching letters and uncover hidden quotes across more than 2,700 puzzles in Citatner."
+    }
+  });
+
+  Object.assign(translations.en.common, {
+    new: "new"
+  });
+
+  Object.assign(translations.en.index, {
+    heroCardQuotes: "Quotes & puzzles"
+  });
+
+  translations.en.citatner = {
+    eyebrow: "ApriTouch game",
+    aboutTitle: "Quotes hidden inside word puzzles",
+    aboutText: "Each level contains a hidden quotation and a set of clue-based words. Solve the clues, enter the answers and watch matching numbered letters appear throughout the puzzle.",
+    featurePuzzlesTitle: "2,700+ puzzles",
+    featurePuzzlesText: "Explore a large collection of increasingly challenging word puzzles.",
+    featureQuotesTitle: "Reveal hidden quotes",
+    featureQuotesText: "Every solved word uncovers linked letters in the quotation.",
+    featureCategoriesTitle: "Many categories",
+    featureCategoriesText: "Play Aphorisms, Armenia, Books, History, Science, Space, Cinema, Music and more.",
+    featureDailyTitle: "Daily challenges",
+    featureDailyText: "Return each day for a fresh puzzle and steady progress.",
+    featureHintsTitle: "Helpful hints",
+    featureHintsText: "Use hints when a difficult clue slows you down.",
+    featureLanguagesTitle: "Multiple languages",
+    featureLanguagesText: "Choose a language and enjoy puzzles made for it.",
+    guideTitle: "How to play",
+    guideIntro: "Use vocabulary, logic, memory and general knowledge to restore the quotation one answer at a time.",
+    guideNote: "The more words you solve, the more of the hidden quote is revealed.",
+    solveTitle: "Solve the clue words",
+    solveSubtitle: "Find the answer that matches each definition.",
+    solveStepOne: "Choose a category and open a puzzle.",
+    solveStepTwo: "Read a clue and enter the correct word.",
+    solveStepThree: "Use a hint if you get stuck.",
+    revealTitle: "Reveal the quotation",
+    revealSubtitle: "Matching numbers connect answers with the hidden quote.",
+    revealStepOne: "Correct letters appear everywhere the same number is shown.",
+    revealStepTwo: "Use the revealed pattern to solve the remaining words.",
+    revealStepThree: "Complete the level by restoring the full quotation.",
+    screenshotsTitle: "Screenshots",
+    screenshotsLead: "A look at Citatner's puzzles, categories and daily challenges on iPhone.",
+    screenshotOne: "Language selection",
+    screenshotTwo: "Main menu",
+    screenshotThree: "Coins and hints",
+    screenshotFour: "Puzzle categories",
+    screenshotFive: "Books category",
+    screenshotSix: "Unlock a category",
+    screenshotSeven: "Quote puzzle",
+    screenshotEight: "Puzzle settings",
+    screenshotNine: "Daily challenge",
+    screenshotTen: "Ad-free option",
+    releaseEyebrow: "Download",
+    releaseTitle: "Store links are coming soon",
+    releaseLead: "Store links will be added here as soon as they are available.",
+    storeNote: "App Store and Google Play links are coming soon.",
+    supportTitle: "Support",
+    supportText: "For questions, suggestions, bug reports or privacy-related requests, use the ApriTouch support and legal pages."
+  };
+
   Object.assign(translations.hy.index, {
     heroSubtitle: "Փոքր խաղեր։ Պարզ զվարճանք։",
     heroText: "Բացահայտեք թեթև բջջային խաղեր՝ ստեղծված արագ, հաճելի և հեշտ հասկանալի խաղային պահերի համար:",
@@ -972,6 +1036,70 @@
     contactText: "Աջակցության, սխալների կամ գաղտնիության հարցումների համար կապվեք մեզ հետ էլ. փոստով:"
   });
 
+  Object.assign(translations.hy.meta, {
+    citatner: {
+      title: "Ցիտատներ — բառախաղ | ApriTouch",
+      description: "Գուշակեք բառերը, բացահայտեք կապված տառերը և վերականգնեք թաքնված ցիտատները ավելի քան 2700 հանելուկներում։"
+    }
+  });
+
+  Object.assign(translations.hy.common, {
+    new: "նոր"
+  });
+
+  Object.assign(translations.hy.index, {
+    heroCardQuotes: "Ցիտատներ և հանելուկներ"
+  });
+
+  translations.hy.citatner = {
+    eyebrow: "ApriTouch խաղ",
+    aboutTitle: "Բառախաղեր՝ թաքնված ցիտատներով",
+    aboutText: "Յուրաքանչյուր մակարդակում ձեզ սպասում է թաքնված ցիտատ և մի քանի բառային հուշում։ Կարդացեք հուշումները, գտեք ճիշտ բառերը և հետևեք, թե ինչպես են համարներով կապված տառերը բացվում ամբողջ հանելուկում։",
+    featurePuzzlesTitle: "Ավելի քան 2700 հանելուկ",
+    featurePuzzlesText: "Բացահայտեք աստիճանաբար բարդացող բառախաղերի մեծ հավաքածու։",
+    featureQuotesTitle: "Թաքնված ցիտատներ",
+    featureQuotesText: "Յուրաքանչյուր գուշակված բառ բացահայտում է ցիտատի կապված տառերը։",
+    featureCategoriesTitle: "Տարբեր թեմաներ",
+    featureCategoriesText: "Խաղացեք Աֆորիզմներ, Հայաստան, Գրքեր, Պատմություն, Գիտություն, Տիեզերք, Կինո, Երաժշտություն և այլ բաժիններում։",
+    featureDailyTitle: "Ամենօրյա առաջադրանքներ",
+    featureDailyText: "Վերադարձեք ամեն օր նոր հանելուկի և շարունակական առաջընթացի համար։",
+    featureHintsTitle: "Օգտակար հուշումներ",
+    featureHintsText: "Օգտվեք հուշումներից, երբ դժվար հարցը խանգարում է առաջ շարժվել։",
+    featureLanguagesTitle: "Մի քանի լեզու",
+    featureLanguagesText: "Ընտրեք լեզուն և վայելեք դրա համար ստեղծված հանելուկները։",
+    guideTitle: "Ինչպես խաղալ",
+    guideIntro: "Օգտագործեք բառապաշարը, տրամաբանությունը, հիշողությունն ու գիտելիքները՝ քայլ առ քայլ վերականգնելու ամբողջ ցիտատը։",
+    guideNote: "Որքան շատ բառեր գուշակեք, այնքան ավելի շատ մաս կբացվի թաքնված ցիտատից։",
+    solveTitle: "Գուշակեք բառերը",
+    solveSubtitle: "Գտեք յուրաքանչյուր բացատրությանը համապատասխան պատասխանը։",
+    solveStepOne: "Ընտրեք թեմատիկ բաժինը և բացեք հանելուկը։",
+    solveStepTwo: "Կարդացեք հուշումը և մուտքագրեք ճիշտ բառը։",
+    solveStepThree: "Եթե դժվարանում եք, օգտվեք հուշումից։",
+    revealTitle: "Բացահայտեք ցիտատը",
+    revealSubtitle: "Նույն համարները կապում են պատասխանները թաքնված ցիտատի հետ։",
+    revealStepOne: "Ճիշտ տառերը բացվում են նույն համարով նշված բոլոր տեղերում։",
+    revealStepTwo: "Բացված տառերով գուշակեք մնացած բառերը։",
+    revealStepThree: "Ավարտեք մակարդակը՝ ամբողջությամբ վերականգնելով ցիտատը։",
+    screenshotsTitle: "Սքրինշոթներ",
+    screenshotsLead: "Citatner-ի հանելուկների, բաժինների և ամենօրյա առաջադրանքների նախադիտում iPhone-ում։",
+    screenshotOne: "Լեզվի ընտրություն",
+    screenshotTwo: "Գլխավոր մենյու",
+    screenshotThree: "Մետաղադրամներ և հուշումներ",
+    screenshotFour: "Հանելուկների բաժիններ",
+    screenshotFive: "Գրքեր բաժին",
+    screenshotSix: "Բաժնի բացում",
+    screenshotSeven: "Ցիտատի հանելուկ",
+    screenshotEight: "Հանելուկի կարգավորումներ",
+    screenshotNine: "Ամենօրյա առաջադրանք",
+    screenshotTen: "Առանց պարտադիր գովազդի",
+    releaseEyebrow: "Ներբեռնել",
+    releaseTitle: "Խանութների հղումները շուտով կավելացվեն",
+    releaseLead: "Խանութների հղումները կավելացվեն այստեղ, հենց որ հասանելի լինեն։",
+    storeNote: "App Store-ի և Google Play-ի հղումները շուտով կավելացվեն։",
+    supportTitle: "Աջակցություն",
+    supportText: "Հարցերի, առաջարկների, սխալների կամ գաղտնիության հարցումների համար օգտագործեք ApriTouch-ի աջակցության և իրավական էջերը։"
+  };
+
   Object.assign(translations.ru.index, {
     heroSubtitle: "Небольшие игры. Простое веселье.",
     heroText: "Откройте для себя легкие мобильные игры для быстрых, приятных и понятных игровых сессий.",
@@ -993,6 +1121,70 @@
     contactTitle: "Нужна помощь?",
     contactText: "По вопросам поддержки, ошибкам или запросам конфиденциальности свяжитесь с нами по email."
   });
+
+  Object.assign(translations.ru.meta, {
+    citatner: {
+      title: "Citatner — цитаты и загадки | ApriTouch",
+      description: "Разгадывайте слова, открывайте связанные буквы и восстанавливайте скрытые цитаты в более чем 2700 головоломках."
+    }
+  });
+
+  Object.assign(translations.ru.common, {
+    new: "новинка"
+  });
+
+  Object.assign(translations.ru.index, {
+    heroCardQuotes: "Цитаты и загадки"
+  });
+
+  translations.ru.citatner = {
+    eyebrow: "Игра ApriTouch",
+    aboutTitle: "Словесные головоломки со скрытыми цитатами",
+    aboutText: "На каждом уровне вас ждёт цитата с пропущенными буквами и несколько слов с определениями. Разгадывайте подсказки, вводите ответы и открывайте связанные по номерам буквы во всей головоломке.",
+    featurePuzzlesTitle: "Более 2700 головоломок",
+    featurePuzzlesText: "Проходите большую коллекцию заданий с постепенно растущей сложностью.",
+    featureQuotesTitle: "Скрытые цитаты",
+    featureQuotesText: "Каждое разгаданное слово открывает связанные буквы в цитате.",
+    featureCategoriesTitle: "Разные категории",
+    featureCategoriesText: "Играйте в разделах Афоризмы, Армения, Книги, История, Наука, Космос, Кино, Музыка и других.",
+    featureDailyTitle: "Ежедневные задания",
+    featureDailyText: "Возвращайтесь каждый день за новой головоломкой и продолжайте прогресс.",
+    featureHintsTitle: "Полезные подсказки",
+    featureHintsText: "Используйте подсказки, если сложный вопрос мешает двигаться дальше.",
+    featureLanguagesTitle: "Несколько языков",
+    featureLanguagesText: "Выберите язык и решайте созданные для него головоломки.",
+    guideTitle: "Как играть",
+    guideIntro: "Используйте словарный запас, логику, память и эрудицию, чтобы шаг за шагом восстановить высказывание.",
+    guideNote: "Чем больше слов вы разгадаете, тем больше букв появится в скрытой цитате.",
+    solveTitle: "Разгадайте слова",
+    solveSubtitle: "Найдите ответ, который подходит к каждому определению.",
+    solveStepOne: "Выберите категорию и откройте головоломку.",
+    solveStepTwo: "Прочитайте подсказку и введите правильное слово.",
+    solveStepThree: "Если застряли, воспользуйтесь подсказкой.",
+    revealTitle: "Восстановите цитату",
+    revealSubtitle: "Одинаковые номера связывают ответы со скрытой цитатой.",
+    revealStepOne: "Правильные буквы появляются во всех местах с тем же номером.",
+    revealStepTwo: "Используйте открывшийся рисунок букв, чтобы разгадать остальные слова.",
+    revealStepThree: "Завершите уровень, полностью восстановив цитату.",
+    screenshotsTitle: "Скриншоты",
+    screenshotsLead: "Головоломки, категории и ежедневные задания Citatner на iPhone.",
+    screenshotOne: "Выбор языка",
+    screenshotTwo: "Главное меню",
+    screenshotThree: "Монеты и подсказки",
+    screenshotFour: "Категории головоломок",
+    screenshotFive: "Категория «Книги»",
+    screenshotSix: "Открытие категории",
+    screenshotSeven: "Головоломка с цитатой",
+    screenshotEight: "Настройки головоломки",
+    screenshotNine: "Ежедневное задание",
+    screenshotTen: "Отключение обязательной рекламы",
+    releaseEyebrow: "Скачать",
+    releaseTitle: "Ссылки на магазины скоро появятся",
+    releaseLead: "Ссылки на магазины будут добавлены сюда, как только станут доступны.",
+    storeNote: "Ссылки на App Store и Google Play скоро появятся.",
+    supportTitle: "Поддержка",
+    supportText: "По вопросам, предложениям, ошибкам или запросам конфиденциальности используйте страницы поддержки и правовые страницы ApriTouch."
+  };
 
   function detectLanguage() {
     const params = new URLSearchParams(window.location.search);
