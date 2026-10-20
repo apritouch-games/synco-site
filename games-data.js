@@ -80,7 +80,37 @@ const games = [
         pageDescription: "Разгадывайте слова по подсказкам, открывайте связанные по номерам буквы и восстанавливайте скрытые цитаты в более чем 2700 головоломках."
       }
     }
+  },
+{
+  "id": "dice-block-puzzle",
+  "name": "Dice Block Puzzle",
+  "logo": "images/games/dice-block-puzzle/logo.jpg",
+  "icon": "images/games/dice-block-puzzle/icon_512.jpg",
+  "googlePlayUrl": "#",
+  "appStoreUrl": "#",
+  "pageUrl": "games/dice-block-puzzle.html",
+  "status": "new",
+  "i18n": {
+    "en": {
+      "name": "Dice Block Puzzle",
+      "tagline": "Roll Dice. Fit Shapes. Think.",
+      "description": "Roll two dice, choose your block shape, and find the perfect spot on a 10×10 grid.",
+      "pageDescription": "Two dice. One hundred cells. Every move matters!"
+    },
+    "ru": {
+      "name": "Дайс Блок (Dice Block Puzzle)",
+      "tagline": "Бросай кости. Подбирай фигуры. Думай.",
+      "description": "Бросайте две кости, выбирайте форму блока и находите для него идеальное место на поле 10×10.",
+      "pageDescription": "Две игральные кости. Сто клеток. Каждый ход имеет значение!"
+    },
+    "hy": {
+      "name": "Dice Block Puzzle",
+      "tagline": "Նետիր զառերը։ Ընտրիր ձևը։ Մտածիր։",
+      "description": "Նետեք երկու զառը, ընտրեք բլոկի ձևը և գտեք դրա համար լավագույն տեղը 10×10 խաղադաշտում։",
+      "pageDescription": "Երկու զառ։ Հարյուր վանդակ։ Ամեն քայլ կարևոր է։"
+    }
   }
+}
 ];
 
 window.games = games;

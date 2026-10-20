@@ -69,13 +69,13 @@ if (game.appStoreUrl && game.appStoreUrl !== "#") {
         const pageUrl = localizeUrl(resolveUrl(game.pageUrl));
         return `
           <article class="game-card">
-            <a class="game-card__media" href="${pageUrl}" aria-label="${escapeHtml(translate("common.learnMoreAbout", { name: game.name }))}">
-              <img class="game-card__logo" src="${resolveUrl(game.logo)}" alt="${escapeHtml(game.name)} logo" loading="lazy">
+            <a class="game-card__media" href="${pageUrl}" aria-label="${escapeHtml(translate("common.learnMoreAbout", { name: gameText(game, "name") }))}">
+              <img class="game-card__logo" src="${resolveUrl(game.logo)}" alt="${escapeHtml(gameText(game, "name"))} logo" loading="lazy">
               <img class="game-card__icon" src="${resolveUrl(game.icon)}" alt="" aria-hidden="true" loading="lazy">
             </a>
             <div class="game-card__body">
               <div class="game-card__eyebrow">${escapeHtml(translate(`common.${game.status}`))}</div>
-              <h3>${escapeHtml(game.name)}</h3>
+              <h3>${escapeHtml(gameText(game, "name"))}</h3>
               <p class="game-card__tagline">${escapeHtml(gameText(game, "tagline"))}</p>
               <p>${escapeHtml(gameText(game, "description"))}</p>
               <div class="button-row">
@@ -95,7 +95,7 @@ if (game.appStoreUrl && game.appStoreUrl !== "#") {
         <li>
           <a href="${localizeUrl(resolveUrl(game.pageUrl))}">
             <img src="${resolveUrl(game.icon)}" alt="" aria-hidden="true" loading="lazy">
-            <span>${escapeHtml(game.name)}</span>
+            <span>${escapeHtml(gameText(game, "name"))}</span>
           </a>
         </li>
       `).join("");
@@ -113,7 +113,7 @@ if (game.appStoreUrl && game.appStoreUrl !== "#") {
   function renderGameDetails() {
     document.querySelectorAll("[data-game-title]").forEach((target) => {
       const game = games.find((item) => item.id === target.dataset.gameTitle);
-      if (game) target.textContent = game.name;
+      if (game) target.textContent = gameText(game, "name");
     });
 
     document.querySelectorAll("[data-game-tagline]").forEach((target) => {
