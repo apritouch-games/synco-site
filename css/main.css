@@ -819,6 +819,47 @@ html[lang="ru"] .footer-heading--pages span[lang="ru"] {
   font-size: 0.88rem;
 }
 
+.footer-profiles {
+  margin-top: 30px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+
+.footer-profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer-profile-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.footer-profile-links a:hover,
+.footer-profile-links a:focus-visible {
+  border-color: var(--brand);
+  color: var(--brand);
+}
+
+.footer-profile-links img {
+  flex: 0 0 22px;
+  width: 22px;
+  height: 22px;
+}
+
 .page-hero {
   padding: 72px 0 54px;
   background: var(--surface-soft);

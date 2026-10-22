@@ -59,7 +59,7 @@ const games = [
     name: "Citatner",
     logo: "images/games/citatner/logo.png",
     icon: "images/games/citatner/logo.png",
-    googlePlayUrl: "#",
+    googlePlayUrl: "https://play.google.com/store/apps/details?id=com.apritouch.citatner",
     appStoreUrl: "#",
     pageUrl: "games/citatner.html",
     status: "new",

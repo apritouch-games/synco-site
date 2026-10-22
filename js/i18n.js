@@ -1366,6 +1366,25 @@
   translations.hy.meta['dice-block-puzzle'] = {"title": "Dice Block Puzzle | ApriTouch", "description": "Նետեք երկու զառը, ընտրեք բլոկի ձևը և գտեք դրա համար լավագույն տեղը 10×10 խաղադաշտում։"};
   translations.hy.index.heroCardDice = "Զառեր և բլոկներ";
 
+  translations.en.common.findUs = "Find us online";
+  translations.ru.common.findUs = "Мы в интернете";
+  translations.hy.common.findUs = "Մենք համացանցում";
+  Object.assign(translations.en.citatner, {
+    googlePlayNote: "Available on Google Play.",
+    downloadTitle: "Download Citatner",
+    downloadLead: "Citatner is available on Google Play. Solve words and discover hidden quotes."
+  });
+  Object.assign(translations.ru.citatner, {
+    googlePlayNote: "Доступно в Google Play.",
+    downloadTitle: "Скачать Citatner",
+    downloadLead: "Citatner доступен в Google Play. Разгадывайте слова и открывайте скрытые цитаты."
+  });
+  Object.assign(translations.hy.citatner, {
+    googlePlayNote: "Հասանելի է Google Play-ում։",
+    downloadTitle: "Ներբեռնել Citatner-ը",
+    downloadLead: "Citatner-ը հասանելի է Google Play-ում։ Գուշակեք բառերը և բացահայտեք թաքնված ցիտատները։"
+  });
+
   function detectLanguage() {
     const params = new URLSearchParams(window.location.search);
     const queryLanguage = normalizeLanguage(params.get("lang"));

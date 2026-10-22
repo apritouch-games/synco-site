@@ -36,12 +36,30 @@
     return game.i18n?.[language]?.[field] || game.i18n?.en?.[field] || game[field] || "";
   }
 
+  function localizeStoreUrl(url) {
+    const resolved = resolveUrl(url);
+    if (!/^https:\/\/play\.google\.com\//i.test(resolved)) return resolved;
+    const storeUrl = new URL(resolved);
+    storeUrl.searchParams.set("hl", currentLanguage());
+    return storeUrl.toString();
+  }
+
+  function renderFooterLinks() {
+    const links = window.ApriTouchConfig?.footerLinks || [];
+    document.querySelectorAll("[data-footer-link]").forEach((anchor) => {
+      const link = links.find((item) => item.id === anchor.dataset.footerLink);
+      if (!link) return;
+      anchor.href = localizeStoreUrl(link.url);
+      anchor.querySelector("span").textContent = link.name;
+    });
+  }
+
   function renderStoreLinks(game, className) {
     const classes = className ? ` ${className}` : "";
     const links = [];
 
     if (game.googlePlayUrl && game.googlePlayUrl !== "#") {
-      links.push(`<a class="btn btn-store${classes}" href="${resolveUrl(game.googlePlayUrl)}">${escapeHtml(translate("common.googlePlay"))}</a>`);
+      links.push(`<a class="btn btn-store${classes}" href="${escapeHtml(localizeStoreUrl(game.googlePlayUrl))}">${escapeHtml(translate("common.googlePlay"))}</a>`);
     }
 
 if (game.appStoreUrl && game.appStoreUrl !== "#") {
@@ -132,6 +150,7 @@ if (game.appStoreUrl && game.appStoreUrl !== "#") {
     renderGameLists();
     renderDownloadLinks();
     renderGameDetails();
+    renderFooterLinks();
   }
 
   function setupNavigation() {
