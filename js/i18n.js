@@ -1466,12 +1466,19 @@
         const separator = index < supportedLanguages.length - 1 ? '<span aria-hidden="true">|</span>' : "";
         const activeClass = language === currentLanguage ? " active" : "";
         const label = language.toUpperCase();
-        return `<button class="language-option${activeClass}" type="button" data-lang-option="${language}" aria-pressed="${language === currentLanguage}">${label}</button>${separator}`;
+        const url = new URL(window.location.href);
+        url.searchParams.set("lang", language);
+        const current = language === currentLanguage ? ' aria-current="true"' : "";
+        return `<a class="language-option${activeClass}" href="${escapeHtml(url.toString())}" data-lang-option="${language}" lang="${language}" hreflang="${language}"${current}>${label}</a>${separator}`;
       }).join("");
     });
 
-    document.querySelectorAll("[data-lang-option]").forEach((button) => {
-      button.addEventListener("click", () => setLanguage(button.dataset.langOption));
+    document.querySelectorAll("[data-lang-option]").forEach((link) => {
+      link.addEventListener("click", (event) => {
+        if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+        event.preventDefault();
+        setLanguage(link.dataset.langOption);
+      });
     });
   }
 
@@ -1496,6 +1503,22 @@
     document.title = meta.title;
     const description = document.querySelector('meta[name="description"]');
     if (description) description.setAttribute("content", meta.description);
+  }
+
+  function updateCanonical() {
+    const canonicalPath = document.body?.dataset.canonicalPath;
+    if (!canonicalPath) return;
+    const url = new URL(canonicalPath, "https://apritouch.com");
+    url.searchParams.set("lang", currentLanguage);
+    // Query-based translations share one HTML file. Inject the matching
+    // canonical instead of shipping a conflicting default-language tag.
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement("link");
+      canonical.setAttribute("rel", "canonical");
+      document.head.appendChild(canonical);
+    }
+    canonical.setAttribute("href", url.toString());
   }
 
   function localizeUrl(url, language) {
@@ -1533,6 +1556,7 @@
     document.documentElement.lang = currentLanguage;
     localStorage.setItem(storageKey, currentLanguage);
     updateMeta();
+    updateCanonical();
     updateTextNodes();
     renderPolicyContent();
     renderLanguageSwitchers();

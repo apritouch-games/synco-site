@@ -1,18 +1,171 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://apritouch.com/</loc>
+    <loc>https://apritouch.com/?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/?lang=en" />
   </url>
   <url>
-    <loc>https://apritouch.com/games/xachbar.html</loc>
+    <loc>https://apritouch.com/?lang=hy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/?lang=en" />
   </url>
   <url>
-    <loc>https://apritouch.com/games/synco.html</loc>
+    <loc>https://apritouch.com/?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/?lang=en" />
   </url>
   <url>
-    <loc>https://apritouch.com/games/citatner.html</loc>
+    <loc>https://apritouch.com/games/synco.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/games/synco.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/games/synco.html?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/games/synco.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/games/synco.html?lang=en" />
   </url>
   <url>
-    <loc>https://apritouch.com/games/dice-block-puzzle.html</loc>
+    <loc>https://apritouch.com/games/synco.html?lang=hy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/games/synco.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/games/synco.html?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/games/synco.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/games/synco.html?lang=en" />
+  </url>
+  <url>
+    <loc>https://apritouch.com/games/synco.html?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/games/synco.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/games/synco.html?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/games/synco.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/games/synco.html?lang=en" />
+  </url>
+  <url>
+    <loc>https://apritouch.com/games/xachbar.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/games/xachbar.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/games/xachbar.html?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/games/xachbar.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/games/xachbar.html?lang=en" />
+  </url>
+  <url>
+    <loc>https://apritouch.com/games/xachbar.html?lang=hy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/games/xachbar.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/games/xachbar.html?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/games/xachbar.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/games/xachbar.html?lang=en" />
+  </url>
+  <url>
+    <loc>https://apritouch.com/games/xachbar.html?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/games/xachbar.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/games/xachbar.html?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/games/xachbar.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/games/xachbar.html?lang=en" />
+  </url>
+  <url>
+    <loc>https://apritouch.com/games/citatner.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/games/citatner.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/games/citatner.html?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/games/citatner.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/games/citatner.html?lang=en" />
+  </url>
+  <url>
+    <loc>https://apritouch.com/games/citatner.html?lang=hy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/games/citatner.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/games/citatner.html?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/games/citatner.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/games/citatner.html?lang=en" />
+  </url>
+  <url>
+    <loc>https://apritouch.com/games/citatner.html?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/games/citatner.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/games/citatner.html?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/games/citatner.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/games/citatner.html?lang=en" />
+  </url>
+  <url>
+    <loc>https://apritouch.com/games/dice-block-puzzle.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/games/dice-block-puzzle.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/games/dice-block-puzzle.html?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/games/dice-block-puzzle.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/games/dice-block-puzzle.html?lang=en" />
+  </url>
+  <url>
+    <loc>https://apritouch.com/games/dice-block-puzzle.html?lang=hy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/games/dice-block-puzzle.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/games/dice-block-puzzle.html?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/games/dice-block-puzzle.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/games/dice-block-puzzle.html?lang=en" />
+  </url>
+  <url>
+    <loc>https://apritouch.com/games/dice-block-puzzle.html?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/games/dice-block-puzzle.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/games/dice-block-puzzle.html?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/games/dice-block-puzzle.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/games/dice-block-puzzle.html?lang=en" />
+  </url>
+  <url>
+    <loc>https://apritouch.com/support.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/support.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/support.html?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/support.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/support.html?lang=en" />
+  </url>
+  <url>
+    <loc>https://apritouch.com/support.html?lang=hy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/support.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/support.html?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/support.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/support.html?lang=en" />
+  </url>
+  <url>
+    <loc>https://apritouch.com/support.html?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/support.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/support.html?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/support.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/support.html?lang=en" />
+  </url>
+  <url>
+    <loc>https://apritouch.com/privacy-policy.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/privacy-policy.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/privacy-policy.html?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/privacy-policy.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/privacy-policy.html?lang=en" />
+  </url>
+  <url>
+    <loc>https://apritouch.com/privacy-policy.html?lang=hy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/privacy-policy.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/privacy-policy.html?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/privacy-policy.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/privacy-policy.html?lang=en" />
+  </url>
+  <url>
+    <loc>https://apritouch.com/privacy-policy.html?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/privacy-policy.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/privacy-policy.html?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/privacy-policy.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/privacy-policy.html?lang=en" />
+  </url>
+  <url>
+    <loc>https://apritouch.com/terms-and-conditions.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/terms-and-conditions.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/terms-and-conditions.html?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/terms-and-conditions.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/terms-and-conditions.html?lang=en" />
+  </url>
+  <url>
+    <loc>https://apritouch.com/terms-and-conditions.html?lang=hy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/terms-and-conditions.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/terms-and-conditions.html?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/terms-and-conditions.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/terms-and-conditions.html?lang=en" />
+  </url>
+  <url>
+    <loc>https://apritouch.com/terms-and-conditions.html?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apritouch.com/terms-and-conditions.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="hy" href="https://apritouch.com/terms-and-conditions.html?lang=hy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apritouch.com/terms-and-conditions.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apritouch.com/terms-and-conditions.html?lang=en" />
   </url>
 </urlset>
