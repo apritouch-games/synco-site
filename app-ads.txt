@@ -176,3 +176,4 @@ loopme.com, 9621, RESELLER, 6c8d5f95897a5a3b
 smaato.com, 1100059345, RESELLER, 07bcf65f187117b4
 monetrix.ai, 10761, RESELLER
 start.io, 131192070, RESELLER
+playdigo.com, 1965, RESELLER
