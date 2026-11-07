@@ -86,7 +86,7 @@ const games = [
   "name": "Dice Block Puzzle",
   "logo": "images/games/dice-block-puzzle/logo.jpg",
   "icon": "images/games/dice-block-puzzle/icon_512.jpg",
-  "googlePlayUrl": "#",
+  "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.apritouch.diceblockpuzzle",
   "appStoreUrl": "#",
   "pageUrl": "games/dice-block-puzzle.html",
   "status": "new",

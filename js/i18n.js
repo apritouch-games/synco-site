@@ -1234,16 +1234,14 @@
     "feature7Text": "Simple controls and engaging puzzle challenges.",
     "feature8Title": "Quick sessions",
     "feature8Text": "Quick sessions that reward clever decisions.",
-    "screenshot1": "Main menu",
-    "screenshot2": "Roll the dice",
-    "screenshot3": "Choose a block shape",
-    "screenshot4": "Classic mode",
-    "screenshot5": "Game settings",
-    "screenshot6": "Constellation map",
-    "screenshot7": "Explore constellations",
-    "screenshot8": "Collect cosmic crystals",
-    "screenshot9": "More ApriTouch games",
-    "screenshot10": "Slice a shape"
+    "screenshot1": "Roll the dice",
+    "screenshot2": "Find a shape that fits",
+    "screenshot3": "One cut, two pieces",
+    "screenshot4": "Clear rows and columns",
+    "screenshot5": "Clear four lines in one move",
+    "screenshot6": "Collect cosmic gems",
+    "screenshot7": "Explore Ursa Major",
+    "screenshot8": "Discover ten constellations"
 };
   translations.en.meta['dice-block-puzzle'] = {"title": "Dice Block Puzzle | ApriTouch", "description": "Roll two dice, choose your block shape, and find the perfect spot on a 10×10 grid."};
   translations.en.index.heroCardDice = "Dice & blocks";
@@ -1293,16 +1291,14 @@
     "feature7Text": "Простое управление и увлекательные испытания.",
     "feature8Title": "Короткие сессии",
     "feature8Text": "Короткие игровые сессии, в которых побеждает продуманная стратегия.",
-    "screenshot1": "Главное меню",
-    "screenshot2": "Бросок костей",
-    "screenshot3": "Выбор формы блока",
-    "screenshot4": "Режим Classic",
-    "screenshot5": "Настройки игры",
-    "screenshot6": "Карта созвездия",
-    "screenshot7": "Выбор созвездия",
-    "screenshot8": "Сбор космических кристаллов",
-    "screenshot9": "Другие игры ApriTouch",
-    "screenshot10": "Разрезание фигуры"
+    "screenshot1": "Бросьте кости",
+    "screenshot2": "Подберите подходящую фигуру",
+    "screenshot3": "Один разрез — две части",
+    "screenshot4": "Очищайте ряды и столбцы",
+    "screenshot5": "Очистите четыре линии за один ход",
+    "screenshot6": "Собирайте космические кристаллы",
+    "screenshot7": "Исследуйте Большую Медведицу",
+    "screenshot8": "Откройте десять созвездий"
 };
   translations.ru.meta['dice-block-puzzle'] = {"title": "Дайс Блок (Dice Block Puzzle) | ApriTouch", "description": "Бросайте две кости, выбирайте форму блока и находите для него идеальное место на поле 10×10."};
   translations.ru.index.heroCardDice = "Кости и блоки";
@@ -1352,16 +1348,14 @@
     "feature7Text": "Պարզ կառավարում և հետաքրքիր գլուխկոտրուկներ։",
     "feature8Title": "Կարճ խաղային փուլեր",
     "feature8Text": "Կարճ խաղային փուլեր, որոնցում մտածված որոշումները բերում են հաջողության։",
-    "screenshot1": "Գլխավոր մենյու",
-    "screenshot2": "Զառերի նետում",
-    "screenshot3": "Բլոկի ձևի ընտրություն",
-    "screenshot4": "Դասական ռեժիմ",
-    "screenshot5": "Խաղի կարգավորումներ",
-    "screenshot6": "Համաստեղության քարտեզ",
-    "screenshot7": "Համաստեղության ընտրություն",
-    "screenshot8": "Տիեզերական բյուրեղների հավաքում",
-    "screenshot9": "ApriTouch-ի այլ խաղեր",
-    "screenshot10": "Պատկերի կտրում"
+    "screenshot1": "Նետեք զառերը",
+    "screenshot2": "Գտեք հարմար ձևը",
+    "screenshot3": "Մեկ կտրվածք՝ երկու մաս",
+    "screenshot4": "Մաքրեք շարքերն ու սյուները",
+    "screenshot5": "Մեկ քայլով մաքրեք չորս գիծ",
+    "screenshot6": "Հավաքեք տիեզերական բյուրեղները",
+    "screenshot7": "Բացահայտեք Մեծ Արջի համաստեղությունը",
+    "screenshot8": "Բացահայտեք տասը համաստեղությունները"
 };
   translations.hy.meta['dice-block-puzzle'] = {"title": "Dice Block Puzzle | ApriTouch", "description": "Նետեք երկու զառը, ընտրեք բլոկի ձևը և գտեք դրա համար լավագույն տեղը 10×10 խաղադաշտում։"};
   translations.hy.index.heroCardDice = "Զառեր և բլոկներ";
